@@ -1,0 +1,39 @@
+/* Grid styles */
+
+/* nav bar styles */
+
+.class_name {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+}
+
+.teacher_name {
+  color: white;
+  
+}
+
+/* styles for main content of index.html which lists students */
+.navbar {
+  background-color: #3368a5;
+  display: grid;
+  grid-template-columns: 80% 20% ;
+}
+
+.card {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  margin-top: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+
+
+
+
+
+
+/* styles for main content of details.html which shows student details as cards */
